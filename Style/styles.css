@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    /* image background */
+  background: url(https://img.freepik.com/premium-vector/abstract-seamless-pattern-background-with-artistic-style_7505-1600.jpg);
+
+}
+
+header {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/462/322/non_2x/abstract-dark-navy-blue-hexagon-pattern-background-in-3d-style-vector.jpg');
+    background-size: cover;
+    height: 150px; /* Adjust the height as needed */
+    text-align: center;
+    color: rgb(28, 34, 114);
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a:hover {
+    background-color: #868e96;
+    color: rgb(218, 11, 11);
+    border-radius: 20px;
+  }
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     /* image background */
+  background: url(https://img.freepik.com/premium-vector/abstract-seamless-pattern-background-with-artistic-style_7505-1600.jpg);
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2c3e50;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.staff{
+    flex: 1;
+    text-align: center;
+}
+
+.staff ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
